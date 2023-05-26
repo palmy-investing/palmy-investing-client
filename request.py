@@ -51,3 +51,6 @@ class RequestHandler:
 def palmy_get(handler=RequestHandler, **kwargs):
     request = handler(**kwargs)
     return request.get()
+
+def x():
+    pass
